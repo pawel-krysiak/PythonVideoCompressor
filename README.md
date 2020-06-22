@@ -7,7 +7,7 @@ Compresses all .mp4 Video files in given directory ussing ffmpeg
 
 ### Installation
 
-Dillinger requires [Python 3](https://www.python.org/) to run.
+Python Video Compressor requires [Python 3](https://www.python.org/) to run.
 
 ```sh
 $ cd PythonVideoCompressor
