@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+
+import python_video_compressor
+python_video_compressor.run()
