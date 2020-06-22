@@ -23,7 +23,7 @@ class VideoCompressor:
             self.__remove_old_output_file(file_path)
             self.__create_output_dir(file_path)
             if self.__file_size_in_MB(file_path) >= (self.ignore_files_below or 0):
-                print(f"Compressing: {file_path}")
+                print(f"Compressing: {file_path} to {self.__output_video_path(file_path)}")
                 self.__compress_file(file_path)
                 print(self.__file_stats(file_path))
             else:
