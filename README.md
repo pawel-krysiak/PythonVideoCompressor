@@ -19,3 +19,8 @@ $ sudo python3 setup.py install
 ```sh
 $ python_video_compressor [args]
 ```
+
+### Help
+```sh
+$ python_video_compressor -h
+```
