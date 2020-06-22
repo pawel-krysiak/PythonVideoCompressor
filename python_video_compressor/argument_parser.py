@@ -20,7 +20,7 @@ class ArgumentParser:
         answer = input('\nProceed with presented arguments? [y\\n]\n')
         if answer.strip().lower() == 'y':
             self.input_dir = self.__input_dir_path(args)
-            self.output_dir = (self.input_dir + OUTPUT_DIR).replace('//','/')
+            self.output_dir = (self.input_dir + '/' + OUTPUT_DIR).replace('//','/')
             self.bitrate = args.bitrate
             self.ignore_files_below = self.__minimum_file_size(args)
             return [self.input_dir, self.output_dir, self.bitrate, self.ignore_files_below]
